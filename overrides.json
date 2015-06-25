@@ -1,0 +1,11 @@
+{
+    "renames":     {
+        "highlight.pack": "highlightjs"
+    },
+    "highlightjs": {
+        "main": [
+            "highlight.pack.js",
+            "styles/*"
+        ]
+    }
+}
