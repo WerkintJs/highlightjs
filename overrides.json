@@ -3,9 +3,15 @@
         "highlight.pack": "highlightjs"
     },
     "highlightjs": {
-        "main": [
+        "main":      [
             "highlight.pack.js",
             "styles/*"
-        ]
+        ],
+        "normalize": {
+            "css/highlightjs": [
+                "*.css",
+                "*.png"
+            ]
+        }
     }
 }
